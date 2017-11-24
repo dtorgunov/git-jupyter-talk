@@ -8,7 +8,7 @@
 \tikzset{arrow/.style={draw,minimum height=3cm,line width=0.5mm}}
 \tikzset{tag/.style={rectangle,draw,anchor=text,inner sep=2.5mm,fill=teal!50}}
 \tikzset{branch/.style={rectangle,draw,anchor=text,inner sep=2.5mm,fill=green!50}}
-\tikzset{msg/.style={rectangle,draw,anchor=text,inner sep=2.5mm,node distance=1.0cm,rounded corners=0.25cm}}
+\tikzset{msg/.style={rectangle,draw,anchor=text,inner sep=2.5mm,node distance=1.0cm,rounded corners=0.25cm,fill=white}}
 
 \begin{document}
 
@@ -124,7 +124,7 @@
     \node[commit] (c1) {\quad};
     \node[commit,right of=c1] (c2) {\quad};
     \node[commit,right of=c2] (c3) {\quad};
-    \node[commit,right of=c3,draw=none] (empt) {\quad};
+    \node[commit,right of=c3,draw=none,fill=none] (empt) {\quad};
     \node[commit,above of=empt] (c4) {\quad};
     \node[commit,below of=empt] (c5) {\quad};
 
@@ -154,7 +154,7 @@
     \node[commit] (c1) {\quad};
     \node[commit,right of=c1] (c2) {\quad};
     \node[commit,right of=c2] (c3) {\quad};
-    \node[commit,right of=c3,draw=none] (empt) {\quad};
+    \node[commit,right of=c3,draw=none,fill=none] (empt) {\quad};
     \node[commit,above of=empt] (c4) {\quad};
     \node[commit,below of=empt] (c5) {\quad};
     \node[commit,right of=c5] (c6) {\quad};
@@ -187,7 +187,7 @@
     \node[commit] (c1) {\quad};
     \node[commit,right of=c1] (c2) {\quad};
     \node[commit,right of=c2] (c3) {\quad};
-    \node[commit,right of=c3,draw=none] (empt) {\quad};
+    \node[commit,right of=c3,draw=none,fill=none] (empt) {\quad};
     \node[commit,above of=empt] (c4) {\quad};
     \node[commit,below of=empt] (c5) {\quad};
     \node[commit,right of=c5] (c6) {\quad};
@@ -219,7 +219,7 @@
     \node[commit] (c1) {\quad};
     \node[commit,right of=c1] (c2) {\quad};
     \node[commit,right of=c2] (c3) {\quad};
-    \node[commit,right of=c3,draw=none] (empt) {\quad};
+    \node[commit,right of=c3,draw=none,fill=none] (empt) {\quad};
     \node[commit,above of=empt] (c4) {\quad};
     \node[commit,below of=empt] (c5) {\quad};
     \node[commit,right of=c5] (c6) {\quad};
@@ -253,7 +253,7 @@
     \node[commit] (c1) {\quad};
     \node[commit,right of=c1] (c2) {\quad};
     \node[commit,right of=c2] (c3) {\quad};
-    \node[commit,right of=c3,draw=none] (empt) {\quad};
+    \node[commit,right of=c3,draw=none,fill=none] (empt) {\quad};
     \node[commit,above of=empt] (c4) {\quad};
     \node[commit,below of=empt] (c5) {\quad};
     \node[commit,right of=c5] (c6) {\quad};
@@ -290,7 +290,7 @@
     \node[commit] (c1) {\quad};
     \node[commit,right of=c1] (c2) {\quad};
     \node[commit,right of=c2] (c3) {\quad};
-    \node[commit,right of=c3,draw=none] (empt) {\quad};
+    \node[commit,right of=c3,draw=none,fill=none] (empt) {\quad};
     \node[commit,above of=empt] (c4) {\quad};
     \node[commit,below of=empt] (c5) {\quad};
     \node[commit,right of=c5] (c6) {\quad};
@@ -330,7 +330,7 @@
     \node[commit] (c1) {\quad};
     \node[commit,right of=c1] (c2) {\quad};
     \node[commit,right of=c2] (c3) {\quad};
-    \node[commit,right of=c3,draw=none] (empt) {\quad};
+    \node[commit,right of=c3,draw=none,fill=none] (empt) {\quad};
     \node[commit,above of=empt] (c4) {\quad};
     \node[commit,below of=empt] (c5) {\quad};
     \node[commit,right of=c5] (c6) {\quad};
@@ -368,7 +368,7 @@
     \node[commit] (c1) {\quad};
     \node[commit,right of=c1] (c2) {\quad};
     \node[commit,right of=c2] (c3) {\quad};
-    \node[commit,right of=c3,draw=none] (empt) {\quad};
+    \node[commit,right of=c3,draw=none,fill=none] (empt) {\quad};
     \node[commit,above of=empt] (c4) {\quad};
     \node[commit,below of=empt] (c5) {\quad};
     \node[commit,right of=c5] (c6) {\quad};
@@ -408,7 +408,7 @@
     \node[commit] (c1) {\quad};
     \node[commit,right of=c1] (c2) {\quad};
     \node[commit,right of=c2] (c3) {\quad};
-    \node[commit,right of=c3,draw=none] (empt) {\quad};
+    \node[commit,right of=c3,draw=none,fill=none] (empt) {\quad};
     \node[commit,above of=empt] (c4) {\quad};
     \node[commit,below of=empt] (c5) {\quad};
     \node[commit,right of=c5] (c6) {\quad};
