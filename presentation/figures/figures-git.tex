@@ -1,8 +1,4 @@
-\documentclass[12pt]{article}
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage{lmodern}
-
+\documentclass[tikz]{standalone}
 \usepackage{tikz}
 
 \usetikzlibrary{shapes,arrows,positioning}
@@ -17,7 +13,6 @@
 \begin{document}
 
 
-  \centering
   \begin{tikzpicture}[node distance=4.0cm,auto]
     \node[commit] (c1) {\quad};
     \node[commit,right of=c1] (c2) {\quad};
@@ -34,9 +29,7 @@
         \path[arrow,dashed,->] (master) -- (c3);
   \end{tikzpicture}
 
-\clearpage
 
-  \centering
   \begin{tikzpicture}[node distance=4.0cm,auto]
     \node[commit] (c1) {\quad};
     \node[commit,right of=c1] (c2) {\quad};
@@ -55,9 +48,7 @@
         \path[arrow,dashed,->] (vone) -- (master);
       \end{tikzpicture}
       
-      \clearpage
       
-  \centering
   \begin{tikzpicture}[node distance=4.0cm,auto]
     \node[commit] (c1) {\quad};
     \node[commit,right of=c1] (c2) {\quad};
@@ -78,9 +69,7 @@
         \path[arrow,dashed,->] (dev) -- (vone);
   \end{tikzpicture}
 
-  \clearpage
 
-  \centering
   \begin{tikzpicture}[node distance=3.5cm,auto]
     \node[commit] (c1) {\quad};
     \node[commit,right of=c1] (c2) {\quad};
@@ -104,9 +93,7 @@
         \path[arrow,dashed,->] (dev) -- (c4);
   \end{tikzpicture}
 
-  \clearpage
 
-  \centering
   \begin{tikzpicture}[node distance=3.5cm,auto]
     \node[commit] (c1) {\quad};
     \node[commit,right of=c1] (c2) {\quad};
@@ -132,9 +119,7 @@
         \path[arrow,dashed,->] (dev) -- (c4);
   \end{tikzpicture}
 
-  \clearpage
 
-  \centering
   \begin{tikzpicture}[node distance=3.5cm,auto]
     \node[commit] (c1) {\quad};
     \node[commit,right of=c1] (c2) {\quad};
@@ -164,9 +149,7 @@
         \path[arrow,dashed,->] (dev) -- (c4);
   \end{tikzpicture}
 
-  \clearpage
 
-  \centering
   \begin{tikzpicture}[node distance=3.0cm,auto]
     \node[commit] (c1) {\quad};
     \node[commit,right of=c1] (c2) {\quad};
@@ -199,9 +182,7 @@
         \path[arrow,dashed,->] (dev) -- (c4);
   \end{tikzpicture}
 
-  \clearpage
 
-  \centering
   \begin{tikzpicture}[node distance=3.0cm,auto]
     \node[commit] (c1) {\quad};
     \node[commit,right of=c1] (c2) {\quad};
@@ -233,9 +214,7 @@
         \path[arrow,dashed,->] (dev) -- (c4);
   \end{tikzpicture}
 
-  \clearpage
 
-  \centering
   \begin{tikzpicture}[node distance=3.0cm,auto]
     \node[commit] (c1) {\quad};
     \node[commit,right of=c1] (c2) {\quad};
@@ -269,9 +248,7 @@
         \path[arrow,dashed,->] (dev) -- (c4);
   \end{tikzpicture}
 
-  \clearpage
 
-  \centering
   \begin{tikzpicture}[node distance=3.0cm,auto]
     \node[commit] (c1) {\quad};
     \node[commit,right of=c1] (c2) {\quad};
@@ -308,9 +285,7 @@
         \path[arrow,dashed,->] (dev) -- (c7);
   \end{tikzpicture}
 
-  \clearpage
 
-  \centering
   \begin{tikzpicture}[node distance=2.5cm,auto]
     \node[commit] (c1) {\quad};
     \node[commit,right of=c1] (c2) {\quad};
@@ -350,9 +325,7 @@
         \path[arrow,dashed,->] (dev) -- (master);
   \end{tikzpicture}
 
-  \clearpage
 
-  \centering
   \begin{tikzpicture}[node distance=2.5cm,auto]
     \node[commit] (c1) {\quad};
     \node[commit,right of=c1] (c2) {\quad};
@@ -390,9 +363,7 @@
         \path[arrow,dashed,->] (voneone) -- (c6);
   \end{tikzpicture}
 
-  \clearpage
 
-  \centering
   \begin{tikzpicture}[node distance=2.5cm,auto]
     \node[commit] (c1) {\quad};
     \node[commit,right of=c1] (c2) {\quad};
@@ -432,9 +403,7 @@
         \path[arrow,dashed,->] (vtwo) -- (master);
   \end{tikzpicture}
 
-  \clearpage
 
-  \centering
   \begin{tikzpicture}[node distance=2.5cm,auto]
     \node[commit] (c1) {\quad};
     \node[commit,right of=c1] (c2) {\quad};
